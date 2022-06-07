@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<font face=  "Muthiara -Demo Version-">
+        <h1>
+
+<center>
+<p style="color:#34495E  ; font-weight: bold; font-size:200%;">Bienvenidos al formulario de BTS</p> 
+<img src="C:\Users\brenda sanchez\OneDrive\Escritorio\Btss.jpg" width"100" height="300">
+</center>
+<!-- CABECERA -->
+	<header id="main-hader">
+<center>
+<font face=  "Consolas">
+<font color="#5D6D7E "><p><em>♡Por favor responde las siguientes preguntas♡ </font color></p></em></h2> 
+</center>           
+<font face=  "Century Gothic">
+</marquee>
+</h1>
+</head> 
+<body>
+
+
+<form action="" method="get">
+
+<p>
+
+<label for="nombre">Nombre:</label><input type="text" name="nombre"
+
+id="nombre" maxlength="100" />
+
+</p>
+
+<p>
+
+<label for="apellidos">Apellidos: </label><input type="text" name="apellidos" id="apellidos" maxlength="50" />
+
+</p>
+
+<p>
+
+Sexo: <input type="radio" name="sexo" id="sexo-h" value="h" /> <label
+
+for="sexo-">hombre</label><input type="radio" name="sexo" id="sexo-m"
+
+value="m" /> <label for="sexo-m">mujer</label>
+
+</p>
+
+<p> <label for="correo">Correo:</label> <input type="text" name="correo" id="correo" maxlength="100" />
+
+</p>
+
+<p>
+
+<label for="poblacion">Población:<</label>
+
+<select name="poblacion" id="poblacion">
+
+<option>CDMX</option> <option>Estado de Mexico</option>
+
+<option>Puebla</option>
+
+<option>Sinaloa</option>
+
+<option>Michoacan </option>
+
+<option>Otro </option>
+
+</select> </p>
+
+<p><label for="descripcion">Descripción de que te gustaria saber : </label> <textarea name="descripcion" id="descripcion" rows="10" cols="60"></textarea>
+
+</p>
+
+<p>
+
+<input type="checkbox" name="info" id="info" checked="checked" /> <label
+
+for="info">Deseo recibir información sobre novedades y ofertas</label>
+
+</p>
+
+<p>
+
+<input type="checkbox" name="condiciones" id="condiciones" /><label for="condiciones"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+
+</p>
+
+<p>
+
+<input type="submit" value="Enviar" /> </p>
+
+</form>
+
+</body> 
+</html>
+
+<!DOCTYPE html>
+<html lang="es-ES">
+    <body bgcolor="#808B96">
+  <head>
+    <meta charset="utf-8">
+    <title>BTS Just one day, stay with me  </title>
+    <marquee>
+        <h1>
+<p style="color:#34495E ; font-weight: bold; font-size:150%;">Bienvenido a Just one day, stay with me</p>
+</marquee>
+</h1>
+    </marque>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <p style="color:#34495E  ; font-weight: bold; font-size:200%;">BTS</p>
+    <p>Banda surcoreana creada en 2013.Es uno de los grupos más famosos a nivel mundial. Con un total de 446 premios, esta banda coreana ha roto una gran cantidad de récords y ha desbancado a más de un artista estadounidense de las listas de popularidad. Su música es escuchada en casi todos los paises; también son los reyes de las redes sociales, tras la reciente creación de cuentas individuales en Instagram de cada miembro.</p>
+  <img src="C:\Users\brenda sanchez\OneDrive\Escritorio\Btsfondo.jpg" width"800" height="800">
+    <h2>Integrantes del grupo</h2>
+    <ul>
+       
+<li>Kim Namjoon. Lider y Rapero</li> 
+      <li>Kim Seokjin. Vocalista</li>
+      <li>Min Yoongi. Rapero</li>
+      <li>Jung Hoseok. Rapero y bailarin principal</li>
+<li>Park Jimin . Vocalista</li>
+<li>Kim Taehyung. Vocalista</li>
+<li>Jeon jungkook. Vocalista</li>
+
+
+    </ul>
+    <h2>Discografía</h2>
+      <a href="https://ibighit.com/bts/eng/discography/"target="_blank">https://ibighit.com/bts/eng/discography/</a>
+    <!DOCTYPE html>   
+ 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Como crear una tabla con divs</title>
+    <style type="text/css">
+
+        .Table
+
+        {
+
+            display: table;
+
+        }
+
+        .Title
+
+        {
+mmm
+            display: table-caption;
+
+            text-align: center;
+
+            font-weight: bold;
+
+            font-size: larger;
+
+        }
+
+        .Heading
+
+        {
+
+            display: table-row;
+
+            font-weight: bold;
+
+            text-align: center;
+
+        }
+
+        .Row
+
+        {
+
+            display: table-row;
+
+        }
+
+        .Cell
+
+        {
+
+            display: table-cell;
+
+            border: solid;
+
+            border-width: thin;
+
+            padding-left: 5px;
+
+            padding-right: 5px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="Table">
+
+        <div class="Title">
+
+            <p>
+              
+<marquee>
+        <h2>
+            Grandes exitos
+</marquee>
+</h2>
+               
+
+        </div>
+
+        <div class="Row">
+
+            <div class="Cell">
+
+                <p>
+
+                    año</p>
+
+            
+        </div>
+
+            <div class="Cell">
+
+                <p>
+
+                   disco</p>
+
+        </div>
+</div>
+
+        <div class="Row">
+
+            <div class="Cell">
+
+                <p>
+
+                  2020  </p>
+
+            
+</div>
+            <div class="Cell">
+
+                <p>
+
+                 Dynamite </p>
+
+            </div>
+</div>
+
+        <div class="Row">
+
+            <div class="Cell">
+
+                <p>
+
+                    2021</p>
+
+            
+            </div>
+
+            <div class="Cell">
+
+                <p>
+
+                 Butter  </p>
+
+            </div>
+        
+</div>
+
+        <div class="Row">
+
+            <div class="Cell">
+
+                <p>
+
+                    2021</p>
+
+            
+            </div>
+
+            <div class="Cell">
+
+                <p>
+
+               Permission to dance </p>
+            </div>
+
+       </div>
+
+
+    <h2>Sitio web oficial</h2>
+    <a href="https://ibighit.com/bts/eng/"target="_blank">https://ibighit.com/bts/eng/</a>
+    <h3>Sitio web videos</h3>
+   <a href="https://www.youtube.com/user/BANGTANTV/videos"target="_blank"> https://www.youtube.com/user/BANGTANTV/videos</a>
+    <hr>
+  </body>
+</html>
